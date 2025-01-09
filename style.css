@@ -11,7 +11,7 @@ a{
 /* NAVBAR */
 .navbar{
     height: 50px;
-    background-color: #0f1111;
+    background-color: #131a22;
     color: white;
     display: flex;
     align-items: center;
@@ -36,6 +36,7 @@ a{
 
 .border:hover{
     border: 1.5px solid white;
+    cursor: pointer;
 }
 
 /* box2 */
@@ -194,6 +195,8 @@ a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #f2c3e0;
+    border-bottom: 1px solid #c7c7c7;
+
 }
 
 .box{
@@ -219,4 +222,73 @@ a{
 
 .box-content p{
     color: #007185;
+}
+
+/* FOOTER */
+
+footer{
+margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{ 
+    background-color: #222f3d;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul{
+    margin-top: 20px;
+
+}
+
+ul a{
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: normal;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #222f3d ;
+    border-top: 1px solid #c7c7c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4 {
+    background-color: #131a22;
+    color: white;
+    height: 100px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+    padding: 5px;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
